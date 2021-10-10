@@ -23,10 +23,12 @@
   vertical-align: -.0667em; }
 
 .fa-xs {
-  font-size: .75em; }
+  /*font-size: .75em;  this is default*/
+  font-size: .9em; }
 
 .fa-sm {
-  font-size: .875em; }
+  /*font-size: .875em;  this is default*/
+  font-size: 1.1em; }
 
 .fa-1x {
   font-size: 1em; }
