@@ -56,7 +56,8 @@ h4, h5, h6 {
 }
 
 a {
-  color:#006bdd;
+  /* color:#006bdd; */
+  color:#246c94;
   text-decoration:none;
 }
 
