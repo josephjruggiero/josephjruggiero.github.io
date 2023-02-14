@@ -280,6 +280,7 @@ footer {
 
 body.modal-open {
     overflow: visible;
+    position: inherit;
 }
 
 /* The Modal (background) */
