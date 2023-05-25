@@ -47,12 +47,28 @@ h3 {
   margin-bottom:.75rem;
 }
 
-h4, h5, h6 {
+h4, h5 {
   color:#494949;
   font-weight: 400;
   font-size:12pt;
   margin-top:1rem;
   margin-bottom:0rem;
+}
+
+h5 {
+  margin:0 0 5px;
+  margin-top: -.1rem;
+  margin-bottom: .1rem;
+  font-size: 12pt;
+  font-weight: 400;
+}
+
+h6 {
+  margin:0 0 5px;
+  margin-top: -.25rem;
+  margin-bottom: .1rem;
+  font-size: 12pt;
+  font-weight: 400;
 }
 
 a {
