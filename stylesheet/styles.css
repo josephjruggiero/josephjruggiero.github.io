@@ -2,7 +2,7 @@ body {
   background-color: #fff;
   padding:50px;
   font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-family: "Source Sans Pro",sans-serif;
+  font-family: "Nunito Sans",sans-serif;
   color:#595959;
   font-weight:400;
 }
@@ -19,7 +19,8 @@ p, ul, ol, table, pre, dl {
 p {
   margin-top: 0rem;
   margin-bottom: .1rem;
-  font-size: 12pt;
+  font-size: 15px;
+  line-height: 20px;
   font-weight: 400;
 }
 
@@ -28,20 +29,20 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
-  font-weight: 400;
+  font-size:26px;
+  font-weight: 800;
 }
 
 h2 {
   color:#393939;
-  font-weight: 400;
+  font-weight: 700;
   font-size:14pt;
   margin-bottom:.75rem;
 }
 
 h3 {
   color:#393939;
-  font-weight: 400;
+  font-weight: 700;
   font-size:14pt;
   margin-top:2.1rem;
   margin-bottom:.75rem;
@@ -93,7 +94,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:1200px;
   margin:0 auto;
 }
 
@@ -138,7 +139,8 @@ th {
 }
 
 img {
-  max-width:100%;
+  /* max-width:100%; */
+  max-width:270px;
   margin-bottom:0.75rem;
 }
 
@@ -147,6 +149,12 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 header ul {
@@ -193,9 +201,10 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width: 850px;
   float:right;
   padding-bottom:50px;
+  padding-left:200px;
 }
 
 small {
@@ -217,7 +226,7 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1320px) {
 
   div.wrapper {
     width:auto;
@@ -308,7 +317,7 @@ footer {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1200px){
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;

@@ -19,8 +19,10 @@
     <link rel="stylesheet" href="stylesheet/pygment_trac.css">
     <link rel="stylesheet" href="stylesheet/all.css" >
     <link rel="stylesheet" href="stylesheet/academicons.css" >
-    <meta name="viewport" content="width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
     <script src="js/jquery-3.5.1.min.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -29,110 +31,82 @@
   <body>
     <div class="wrapper">
       <header>
-        <img src="img/jr.png" alt=""/>
         <h1>Joseph J. Ruggiero</h1>
-        <p>Ph.D. Candidate at <a href="https://politics.princeton.edu/people/joseph-j-ruggiero" target="_blank">Princeton University</a></p>
+        <img src="img/jr.png" alt=""/>
+        <p>Ph.D. Candidate at <a href="https://politics.pricneton.edu/" target="_blank">Princeton University</a></p>
         
-        <p><a href="mailto:jruggiero@princeton.edu"><i class="fas fa-envelope"></i>&nbsp; jruggiero@princeton.edu</a></p>
+        <p><a href="mailto:jruggiero@princeton.edu"><i class="fas fa-envelope"></i>&nbsp; jruggiero@princeton.edu</a></p><br>
 
-        <ul>
-          <li><a href="https://www.twitter.com/josephjruggiero" target="_blank"><i style="padding-top:.1rem;" class="fab fa-twitter fa-lg"></i> Twitter</a></li>
-          
-          <li><a href="https://www.github.com/josephjruggiero" target="_blank"><i style="padding-top:.1rem;" class="fab fa-github fa-lg"></i> GitHub</a></li>
+        <p><span style="font-size: 11pt; font-weight:400;"><a href="pdfs/ruggiero-cv.pdf" target="_blank">CV</a></span></p>
 
-          <li><a href="https://scholar.google.com/citations?user=SIkN--wAAAAJ&hl=en&oi=ao" target="_blank"><i class="ai ai-google-scholar ai-2x"></i>  <span style="vertical-align:2.6pt;">Scholar</span></a></li>
-        </ul>
+        <p><a href="https://scholar.google.com/citations?user=SIkN--wAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a></p>
       </header>
       <section>
-        <h2>About <span style="font-size: 11pt; font-weight:400;">&mdash;</span> <span style="font-size: 11pt; font-weight:400;"><a href="pdfs/ruggiero-cv.pdf" target="_blank">Curriculum vitae</a></span></h2>
-
-        <p align="justify">I am a Ph.D. candidate at <a href="https://politics.princeton.edu/" target="_blank">Princeton University</a> and a graduate student fellow in the <a href="https://qaps.princeton.edu/" target="_blank">Program for Quantitative and Analytical Political Science</a>, where I study the political economy of conflict. My work typically uses game theory, quantitative methods, and network analysis to understand strategic interactions that lead to war.</p>
+        <p align="justify">I am a Ph.D. candidate at <a href="https://politics.princeton.edu/" target="_blank">Princeton University</a>, where I am also a fellow in the <a href="https://qaps.princeton.edu/" target="_blank">Program for Quantitative and Analytical Political Science</a> and an affiliate of <a href="https://niehaus.princeton.edu/" target="_blank">The Niehaus Center for Globalization and Governance</a>. In Fall 2024, I will join <a href="https://politicalscience.stanford.edu/" target="_blank">Stanford University</a> as a Postdoctoral Research Fellow. I study topics in political economy and conflict. My work primarily uses game theory, quantitative methods, and network analysis to understand strategic political interactions.</p>
 
          <h3>Publications</h3>
 
-         <h4><a href="#" id="myBtn">Preventive War and Sovereign Debt</a></h4>
-         <p><span style="font-size: 11pt; font-weight:400;">with <a href="https://scholar.google.com/citations?user=egbs_6kAAAAJ" target"_blank">Colin Krainin</a>, <a href="https://kramsay.scholar.princeton.edu/" target="_blank">Kristopher Ramsay</a>, and <a href="https://www.bellawang.net/p/home.html" target="_blank">Bella Wang</a></span></p>
-           
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-              <!-- Modal content -->
-              <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Preventive War and Sovereign Debt</h2>
-                <p style="margin-left: 33px; font-weight:400;"><a href="https://journals.sagepub.com/doi/full/10.1177/07388942211024947" target="_blank">Journal Article</a></p>
-                <p style="margin-left: 33px; font-weight:400;"><a href="pdfs/wardebt.pdf" target="_blank">Final Manuscript</a></p>
-                <p style="margin-left: 33px; font-weight:400;"><a href="pdfs/wardebt-supp.pdf" target="_blank">Supplementary Appendix</a></p>
+         <ul>
+          <li><p><a href="pdfs/krainin-et-al-2022-preventive-war-and-sovereign-debt.pdf" target="_blank">“Preventive War and Sovereign Debt”</a> with Colin Krainin, Kristopher W. Ramsay, and Bella Wang. <em>Conflict Management and Peace Science</em>, 39(5), 487-519. (2022)
+            <div class="expand">
+              <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
+                  <i style="font-size:x-small; margin-left: 2.5px;" class="fas fa-chevron-right"></i>
+                  <span>
+                 Abstract
+                </span>
               </div>
-            </div>
-         
-           <p style="font-size: 11pt; font-weight:400;"><span style="font-size: 11pt; font-weight:400;"><em>Conflict Management and Peace Science</em></span>, 2022</p>
-           <div class="expand", style="margin-left: 15px; font-size: 11pt; font-weight:400;">
-           <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
-               <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
-               <span>
-             Abstract
-             </span>
-           </div>
-           <div class="expand-content" style="display: none;">
-             <p align="justify"><span style="font-size: 11pt;">The preventive motive for war arises because states cannot commit to limit the use of their growing power.  This commitment problem can lead to war when there are not enough resources available today to compensate the declining state for their expected losses. In this article, we show how capital markets affect preventive war incentives by introducing a profit-maximizing bond market to the canonical bargaining model of war.  We find that the nature of the power shift and fundamentals of the market for debt interact to determine when a preventive motive is more likely to lead to war. Two main results show that (1) less probable but more extreme power shifts are most dangerous and (2) unlike the direct effect of interest rates on the cost of war, higher interest on sovereign debt makes war more likely. We present evidence for the latter effect by extending Lemke's (2003) study of preventive war for major-power dyads between 1816 and 1992.</span></p>
-           </div>
-           </div>
+              <div class="expand-content" style="display: none;">
+                <p align="justify">The preventive motive for war arises because states cannot commit to limit the use of their growing power.  This commitment problem can lead to war when there are not enough resources available today to compensate the declining state for their expected losses. In this article, we show how capital markets affect preventive war incentives by introducing a profit-maximizing bond market to the canonical bargaining model of war.  We find that the nature of the power shift and fundamentals of the market for debt interact to determine when a preventive motive is more likely to lead to war. Two main results show that (1) less probable but more extreme power shifts are most dangerous and (2) unlike the direct effect of interest rates on the cost of war, higher interest on sovereign debt makes war more likely. We present evidence for the latter effect by extending Lemke's (2003) study of preventive war for major-power dyads between 1816 and 1992.</p>
+              </div>
+              </div>
+            </p>
+          </li>
+        </ul>
+
 
           <h3>Working papers</h3>
 
-          <h4><a href="pdfs/worldwar.pdf" target="_blank">What Makes a World War? Economic Networks and Distributions of Power</a></h4>
-          <p><span style="font-size: 10pt; font-weight:400;"><em>Awarded "Best Graduate Student Paper" by the Formal Models of Conflict Conference</em></a></span></p>
-                <div class="expand", style="margin-left: 15px; font-size: 11pt; font-weight:400;">
-                  <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
-                      <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
-                      <span>
-                    Abstract
-                    </span>
-                  </div>
-                  <div class="expand-content" style="display: none;">
-                    <p align="justify"><span style="font-size: 11pt;">Why do some conflicts escalate to global war, while others stay contained? At its core, the size of a war, as well as the incentive to start one, depends on expectations about who will join. Those expectations are, in turn, fundamentally shaped by political alignments and economic integration. I provide a formal model of conflict that accounts for these factors. Using data on international disputes from 1816-2014, I estimate the effect of economic networks and power asymmetries on the incentives for conflict. The results suggest (1) global network spillovers pacify potential joiners, reducing the scale of war and consequently triggering more attacks, and (2) countries bandwagon, causing a correlation between power inequality and the expected size of war in equilibrium. The model facilitates counterfactual experiments, which is demonstrated by exploring a potential conflict between China and Taiwan from 1989-2014 under various degrees of integration. The model suggests an attack is becoming less likely due to rising opposition and that, while trade pacifies, the effect is marginal.</span></p>
-                  </div>
-                  </div>
+          <ul>
+            <li><p>“What Makes a World War? A Structural Analysis of Integration”</p>
+              <p><em>Awarded “Best Graduate Student Paper” by the Formal Models of Conflict Conference</em></p>
+              <!-- <div class="expand">
+                <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
+                    <i style="font-size:x-small; margin-left: 2.5px;" class="fas fa-chevron-right"></i>
+                    <span>
+                   Abstract
+                  </span>
+                </div>
+                <div class="expand-content" style="display: none;">
+                  <p align="justify">Why do some conflicts escalate to global war, while others stay contained? At its core, the size of a war, as well as the incentive to start one, depends on expectations about who will join. Those expectations are, in turn, fundamentally shaped by political alignments and economic integration. I provide a formal model of conflict that accounts for these factors. Using data on international disputes from 1816-2014, I estimate the effect of economic networks and power asymmetries on the incentives for conflict. The results suggest (1) global network spillovers pacify potential joiners, reducing the scale of war and consequently triggering more attacks, and (2) countries bandwagon, causing a correlation between power inequality and the expected size of war in equilibrium. The model facilitates counterfactual experiments, which is demonstrated by exploring a potential conflict between China and Taiwan from 1989-2014 under various degrees of integration. The model suggests an attack is becoming less likely due to rising opposition and that, while trade pacifies, the effect is marginal.</p>
+                </div>
+                </div> -->
+            </li>
 
-          <h4>Bargaining, War, and Cooperation in the Long Run</h4>
-          <p><span style="font-size: 11pt; font-weight:400;">(Submitted)</span></p>
-            <div class="expand", style="margin-left: 15px; font-size: 11pt; font-weight:400;">
-            <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
-                <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
-                <span>
-              Abstract
-              </span>
-            </div>
-            <div class="expand-content" style="display: none;">
-              <p align="justify"><span style="font-size: 11pt;">Maintaining peace with adversaries can be costly, yet conflict models depict cooperation as a costless byproduct of not fighting. This article provides a formal model where peace may be costly and countries compete over bargaining surplus. Against conventional wisdom, repeated interactions of patient countries can destabilize peace without power shifts, as countries may prefer to "rip off the bandage." The likelihood of war depends on fundamentals of the international order, including outcome persistence and the severity of competition. Even when cooperation is mutually beneficial, wars are inevitable in the long run due to a coordination problem induced by costly peace. Competition over favorable settlements does not directly instigate attacks, but it reduces the gains from peace while counterintuitively making war less likely. The article offers new systemic explanations for war, highlights the importance of institutional design in conflict resolution, and sheds light on which international orders fare well over time.</span></p>
-            </div>
-            </div>
+            <br>
 
-          <h4>Some For the Price of One: Targeted Redistribution and Social Structure</h4>
-          <p><span style="font-size: 11pt; font-weight:400;">with <a href="https://politics.princeton.edu/people/perry-carter" target="_blank">Perry Carter</a> (Submitted)</span></p>
-            <div class="expand", style="margin-left: 15px; font-size: 11pt; font-weight:400;">
-            <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
-                <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
-                <span>
-              Abstract
-              </span>
-            </div>
-            <div class="expand-content" style="display: none;">
-              <p align="justify"><span style="font-size: 11pt;">Social networks play an important role in distributive politics, yet little is known about how features of societies affect patterns of redistribution. We study a formal model of an election in which candidates may offer excludable transfers to policy-motivated voters connected on a social network. Our model facilitates comparison of societies based on their average features. In equilibrium, transfers are determined by group shares and homophily, while inequalities between groups are driven by a disproportionate targeting of minorities. We also consider heterogeneous information between candidates, clarifying the informational benefits of density and demonstrating that homophily can endogenously produce in-group favoritism. These results highlight the importance of aggregate social structure and suggest new directions for empirical studies of redistributive politics.</span></p>
-            </div>
-            </div>
+            <li><p>“Competitive Diplomacy in Bargaining and War”</p>
+            </li>
+
+            <br>
+
+            <li><p>“Social Structure and Redistributive Politics”</a> with Perry Carter</p>
+            </li>
+
+          </ul>
 
           <h3>Work in progress</h3>
 
-          <h4>Economic Growth in the Shadow of Power</h4>
-          
-          <h4>Economic Origins of Autocratic War and Peace: The Role of Tycoons</h4>
-          <span style="font-size: 11pt; font-weight:400;">with <a href="https://www.royatalibova.com/" target="_blank">Roya Talibova</a></span>
-          
-          <h4>Incentives for Conflict in Interdependent Systems</h4>
+          <ul>
 
-          <h4>Leveraging Armageddon: Crisis Bargaining and Nuclear Weapons</h4>
-          <p><span style="font-size: 11pt; font-weight:400;">with <a href="https://politics.princeton.edu/people/perry-carter" target="_blank">Perry Carter</a></span></p>
+            <li><p>“Economic Growth in the Shadow of Power”</p></li><br>
+
+            <li><p>“Economic Origins of Autocratic War and Peace: The Role of Tycoons” with Roya Talibova</p></li><br>
+
+            <li><p>“Incentives for Conflict in Interdependent Systems”</p></li><br>
+
+            <li><p>“Nuclear Weapons in Crisis Bargaining” with Perry Carter</p></li><br>
+
+          </ul>
 
 
       </section>
